@@ -1,5 +1,3 @@
-#I'm going to lie down, brb submod by my-otter-self on reddit for MONIKA AFTER STORY
-
 init 5 python in mas_bookmarks_derand:
     label_prefix_map["otter_brb_"] = label_prefix_map["monika_"]
 
@@ -71,7 +69,3 @@ label otter_brb_liedown_callback:
         m 2kua "Let's spend more time together, [mas_get_player_nickname()]~"
 
     return
-
-#momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
-#be sure to call back to original command; game counts time from when selected
-#order from longest to shortest time so game can more accurately go through the options
