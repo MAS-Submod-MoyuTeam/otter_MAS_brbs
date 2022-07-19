@@ -1,5 +1,3 @@
-#I'm going to voice chat with someone, brb submod by my-otter-self on reddit for MONIKA AFTER STORY
-
 init 5 python in mas_bookmarks_derand:
     label_prefix_map["otter_brb_"] = label_prefix_map["monika_"]
 
@@ -34,5 +32,3 @@ label otter_brb_vc_callback:
     m 5fua "Let's spend more time together~"
 
     return
-
-#momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
