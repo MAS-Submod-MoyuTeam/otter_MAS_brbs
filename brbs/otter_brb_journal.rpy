@@ -1,5 +1,3 @@
-#I'm going to write on my journal, brb submod by my-otter-self on reddit for MONIKA AFTER STORY
-
 init 5 python in mas_bookmarks_derand:
     label_prefix_map["otter_brb_"] = label_prefix_map["monika_"]
 
@@ -30,5 +28,3 @@ label otter_brb_journal_callback:
     m 5kubsa "After all, all days are the best days when I'm next to you~"
 
     return
-
-#momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
