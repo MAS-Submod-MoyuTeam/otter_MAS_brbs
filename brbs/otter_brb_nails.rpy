@@ -1,5 +1,3 @@
-#I'm going to do my nails, brb submod by my-otter-self on reddit for MONIKA AFTER STORY
-
 init 5 python in mas_bookmarks_derand:
     label_prefix_map["otter_brb_"] = label_prefix_map["monika_"]
 
@@ -32,5 +30,3 @@ label otter_brb_nails_callback:
     m 5wso "Careful not to smudge it while using the computer, okay?"
 
     return
-
-#momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
