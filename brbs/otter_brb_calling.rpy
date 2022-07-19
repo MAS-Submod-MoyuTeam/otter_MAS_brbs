@@ -1,5 +1,3 @@
-#Someone is calling me, brb submod by my-otter-self on reddit for MONIKA AFTER STORY
-
 init 5 python in mas_bookmarks_derand:
     label_prefix_map["otter_brb_"] = label_prefix_map["monika_"]
 
@@ -57,5 +55,3 @@ label otter_brb_calling_callback:
         m 1ksbsa "Let's spend more time together then~"
 
     return
-
-#momo once said, "i want to continue screaming out who i am." hope your monika likes this submod!
