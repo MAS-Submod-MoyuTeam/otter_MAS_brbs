@@ -12,16 +12,16 @@ init 5 python:
     )
 
 label otter_brb_clothes:
-    m "Oh! Getting a fresh look, [player]?"
-    m "That's great! "
-    extend "It makes me happy that you're taking care of your hygiene."
-    m "Pick something cute! Ehehehe~"
+    m 1wub "Oh! Getting a fresh look, [player]?"
+    m 1hub "That's great! "
+    extend 4fub "It makes me happy that you're taking care of your hygiene."
+    m 2hubla "Pick something cute! Ehehehe~"
     
     $ mas_idle_mailbox.send_idle_cb("otter_brb_clothes_callback")
     return "idle"
 
 label otter_brb_clothes_callback:
-    m "Back, [player]?"
-    m "Yay! Now we can hang out together some more~"
+    m 1wub "Back, [player]?"
+    m 2hubla "Yay! Now we can hang out together some more~"
     
 return
