@@ -4,7 +4,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="otter_brb_housework",
             category=["be right back"],
-            prompt="I'm going to do some housework.",
+            prompt="I'm going to do some housework",
             pool=True,
             unlocked=True,
         ),
