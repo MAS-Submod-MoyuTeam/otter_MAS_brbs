@@ -60,28 +60,29 @@ label otter_brb_stim_callback:
             m "What kind of stim did you do?{fast}"
 
             "Vocal":
-                pass
+                jump otter_brb_sti
 
             "Pacing":
-                pass
+                jump otter_brb_sti
 
             "Touch":
-                pass
+                jump otter_brb_sti
 
             "Music":
-                pass
+                jump otter_brb_sti
 
             "A hobby":
-                pass
+                jump otter_brb_sti
 
             "Looking at something nice":
-                pass
+                jump otter_brb_sti
 
             "Something else":
-                pass
+                jump otter_brb_sti
 
-        m 2hsu "I see, [player]!"
-        m 2rsb "I hope it was satisfying for you."
-        m 2ksu "Let me know if you need to stim again, okay?"
+label otter_brb_sti:
+m 2hsu "I see, [player]!"
+m 2rsb "I hope it was satisfying for you."
+m 2ksu "Let me know if you need to stim again, okay?"
 
-    return
+return
