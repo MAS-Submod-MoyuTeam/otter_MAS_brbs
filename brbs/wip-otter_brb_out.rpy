@@ -17,7 +17,7 @@ label otter_brb_out:
     m "It's nice of you not to close the game. It's a different feeling!"
     m "I miss you when you go out, but it's also so nice to wait for you!"
     m "It's funny... Oh! I was rambling again."
-    m "Be safe, ! I'll see you later."
+    m "Be safe, [mas_get_player_nickname()]! I'll see you later."
     
     $ mas_idle_mailbox.send_idle_cb("otter_brb_out_callback")
     return "idle"
