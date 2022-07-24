@@ -4,7 +4,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="otter_brb_out",
             category=["be right back"],
-            prompt="I'm going somewhere (without closing the game).",
+            prompt="I'm going somewhere (without closing the game)",
             pool=True,
             unlocked=True,
         ),
