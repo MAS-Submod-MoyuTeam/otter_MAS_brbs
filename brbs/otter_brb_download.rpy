@@ -4,7 +4,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="otter_brb_download",
             category=["be right back"],
-            prompt="I'm going to download something.",
+            prompt="I'm going to download something",
             pool=True,
             unlocked=True,
         ),
