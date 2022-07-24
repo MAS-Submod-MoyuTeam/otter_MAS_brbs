@@ -12,20 +12,21 @@ init 5 python:
     )
 
 label otter_brb_out:
-    m "Oh! "
-    extend "Have fun, [player]!"
-    m "It's nice of you not to close the game. It's a different feeling!"
-    m "I miss you when you go out, but it's also so nice to wait for you!"
-    m "It's funny... Oh! I was rambling again."
-    m "Be safe, [mas_get_player_nickname()]! I'll see you later."
+    m 1wub "Oh! "
+    extend 1hub "Have fun, [player]!"
+    m 2lublb "It's nice of you not to close the game. It's a different feeling!"
+    m 3lublb "I miss you when you go out, but it's also so nice to wait for you!"
+    m 3lubld "It's funny... "
+    extend 1wublo "Oh! I was rambling again."
+    m 1hubla "Be safe, [mas_get_player_nickname()]! I'll see you later."
     
     $ mas_idle_mailbox.send_idle_cb("otter_brb_out_callback")
     return "idle"
 
 label otter_brb_out_callback:
-    m "Hi again, [player]!"
-    m "Did you have fun?"
-    m "I missed you so much!"
-    m "I'm glad you're here, now I can enjoy your company some more~"
+    m 1wublb "Hi again, [player]!"
+    m 7wublb "Did you have fun?"
+    m 5hubla "I missed you so much!"
+    m 5hublb "I'm glad you're here, now I can enjoy your company some more~"
     
 return
