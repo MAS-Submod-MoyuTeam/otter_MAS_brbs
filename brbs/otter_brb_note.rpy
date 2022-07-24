@@ -4,7 +4,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="otter_brb_note",
             category=["be right back"],
-            prompt="I'm going to take a note.",
+            prompt="I'm going to take a note",
             pool=True,
             unlocked=True,
         ),
