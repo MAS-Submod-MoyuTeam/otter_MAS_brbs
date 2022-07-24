@@ -4,7 +4,7 @@ init 5 python:
             persistent.event_database,
             eventlabel="otter_brb_clothes",
             category=["be right back"],
-            prompt="I'm going to change clothes.",
+            prompt="I'm going to change clothes",
             pool=True,
             unlocked=True,
         ),
